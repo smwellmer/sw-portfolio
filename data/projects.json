@@ -9,26 +9,26 @@
     },
     {
       "name": "#adulting",
-      "image": "",
+      "image": "/adulting.png",
       "slug": "adulting",
-      "description": "some description",
-      "live": "http://www.livesite.com",
-      "github": "http://www.github.com/username/projectrepo"
+      "description": "A group project, front end built in React.",
+      "live": "https://adulting.vercel.app/",
+      "github": "https://github.com/scwdev/adulting-frontend"
     },
     {
       "name": "CoffeeVERSE",
-      "image": "url",
-      "description": "some description",
-      "slug": "project_3",
-      "live": "http://www.livesite.com",
-      "github": "http://www.github.com/username/projectrepo"
+      "image": "/coffee.png",
+      "description": "Front-end eCommerce website built in react.",
+      "slug": "coffeeverse",
+      "live": "https://coffeeverse.netlify.app/",
+      "github": "https://github.com/smwellmer/Project2"
     },
     {
       "name": "Just Desserts",
-      "image": "url",
-      "description": "some description",
-      "slug": "project_3",
-      "live": "http://www.livesite.com",
-      "github": "http://www.github.com/username/projectrepo"
+      "image": "/desserts.png",
+      "description": "Mini-project using express backend. Web app built using MongoDB, Express, React, & Node App.",
+      "slug": "justdesserts",
+      "live": "https://just-desserts.netlify.app/",
+      "github": "https://github.com/smwellmer/desserts-frontend"
     }
   ]

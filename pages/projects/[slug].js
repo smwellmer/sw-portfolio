@@ -11,7 +11,7 @@ export default function Project({ project }) {
         <button>Live Project</button>
       </a>
       <a href={project.github}>
-        <button>Live Project</button>
+        <button>Project GitHub</button>
       </a>
     </div>
   );

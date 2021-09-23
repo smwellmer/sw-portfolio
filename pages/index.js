@@ -1,11 +1,15 @@
 import projects from "../data/projects.json";
 import Link from "next/link";
+import Hero from '../components/Hero'
 
 export default function Home() {
   return (
     <div>
-      <h1>My Portfolio</h1>
-      <h2>About Me</h2>
+      <div>
+      <Hero />
+      <h1>Samantha Wellmer</h1>
+      <h2>accountant turned developer</h2>
+      </div>
       <p>
         
       </p>

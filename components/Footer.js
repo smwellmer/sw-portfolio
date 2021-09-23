@@ -1,3 +1,3 @@
 export default function Footer(props) {
-    return <footer></footer>;
+    return <footer>Samantha Wellmer © 2021</footer>;
   }
