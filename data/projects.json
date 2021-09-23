@@ -1,0 +1,34 @@
+[
+    {
+      "name": "StageCoach Café",
+      "image": "/stagecoach.png",
+      "slug": "stagecoachcafe",
+      "description": "Restaurant website built in React and using Contentful CMS.",
+      "live": "https://stagecoachcafe.netlify.app/",
+      "github": "https://github.com/smwellmer/stagecoach-front"
+    },
+    {
+      "name": "#adulting",
+      "image": "",
+      "slug": "adulting",
+      "description": "some description",
+      "live": "http://www.livesite.com",
+      "github": "http://www.github.com/username/projectrepo"
+    },
+    {
+      "name": "CoffeeVERSE",
+      "image": "url",
+      "description": "some description",
+      "slug": "project_3",
+      "live": "http://www.livesite.com",
+      "github": "http://www.github.com/username/projectrepo"
+    },
+    {
+      "name": "Just Desserts",
+      "image": "url",
+      "description": "some description",
+      "slug": "project_3",
+      "live": "http://www.livesite.com",
+      "github": "http://www.github.com/username/projectrepo"
+    }
+  ]
