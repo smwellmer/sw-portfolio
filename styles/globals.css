@@ -1,7 +1,13 @@
 html, body {
   padding: 0;
   margin: 0;
-  background-color: #d6d8d4;
+}
+body{
+  background-image: url(/yellow.jpg);
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -13,9 +19,17 @@ a {
   box-sizing: border-box;
 }
 
-.hero {
-  width: 100vw;
-  height: 100vh;
-  opacity: .8;
-  top: 0;
+.hamburger{
+  display: fixed;
+  padding-top: 10px;
+  margin-left: 10px;
+  z-index: 10;
+}
+
+
+
+@media screen and (min-width: 768px){
+  .hamburger{
+    display: none;
+  }
 }
