@@ -6,6 +6,7 @@ export default function PageHead(props) {
       <title>{props.title}</title>
       <meta name="description" content={props.description} />
       <link rel="icon" href="/favicon.ico" />
+      
     </Head>
   );
 }

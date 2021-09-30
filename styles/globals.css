@@ -3,6 +3,7 @@ html, body {
   margin: 0;
 }
 body{
+  font-family: 'Raleway', sans-serif;
   background-image: url(/yellow.jpg);
   max-width: 100%;
   height: auto;
@@ -25,11 +26,38 @@ a {
   margin-left: 10px;
   z-index: 10;
 }
+.photo {
+  margin: 0 auto;
+  clip-path: ellipse(34% 40% at 50% 50%);
+  height: 20em;
+  width: 20em;
+  object-fit: scale-down;
+  transform: translate3d(0px, 0, 0) scale(1.2);
+  transition: all 0.35s;
+  padding-left: 15px;
+}
+.photo:hover{
+  opacity: .5;
+  transform: translate3d(0px, 0, 0) scale(2);
+}
 
-
-
+.name{
+  font-family: 'Cinzel', serif;
+  font-size: 3em;
+  margin: .25em;
+  margin-bottom: 0;
+}
+.name2{
+  font-family: 'Cinzel', serif;
+  margin-left: 20%;
+  margin-top: 0;
+  font-size: 3em;
+}
 @media screen and (min-width: 768px){
   .hamburger{
     display: none;
+  }
+  .navigation{
+    display: flex;
   }
 }

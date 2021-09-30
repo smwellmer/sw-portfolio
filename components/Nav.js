@@ -1,5 +1,6 @@
 import Hamburger from "./Hamburger"
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Nav(props) {
 
@@ -15,7 +16,6 @@ export default function Nav(props) {
             <div className='navigation'>
                 <ul>
                     <li>Home</li>
-                    <li>Projects</li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>

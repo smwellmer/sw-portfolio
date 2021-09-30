@@ -7,7 +7,9 @@ export default function Home() {
     <div>
       <div>
       <Nav />
-      <h1>Samantha Wellmer</h1>
+      <h1 className='name'>Samantha</h1>
+      <h1 className='name2'>Wellmer</h1>
+      <img className='photo' src='me.jpg' alt='me'/>
       <h2>accountant turned developer</h2>
       </div>
       <p>
