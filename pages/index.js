@@ -10,7 +10,9 @@ export default function Home() {
       <h1 className='name'>Samantha</h1>
       <h1 className='name2'>Wellmer</h1>
       <img className='photo' src='me.jpg' alt='me'/>
-      <h2>accountant turned developer</h2>
+      <h2>accountant</h2>
+      <h2 className=''> turned</h2>
+      <h2> developer</h2>
       </div>
       <p>
         
@@ -19,7 +21,10 @@ export default function Home() {
       {projects.map((project, index) => {
         return (
           <div key={index}>
-            <Link href={`/projects/${project.slug}`}>{project.name}</Link>
+            <Link href={`/projects/${project.slug}`}>
+              {project.name}
+            </Link>
+            <img src={project.image} />
           </div>
         );
       })}

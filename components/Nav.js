@@ -10,14 +10,19 @@ export default function Nav(props) {
         setHamburgerOpen(!hamburgerOpen)
     }
 
-
     return (
         <div>
             <div className='navigation'>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li><Link href={`/`}>
+                    Home
+                    </Link></li>
+                    <li><Link href={`/About`}>
+                    About
+                    </Link></li>
+                    <li><Link href={`/Contact`}>
+                    Contact
+                    </Link></li>
                 </ul>
                 <div className='hamburger' onClick={toggleHamburger}>
                     <Hamburger isOpen={hamburgerOpen}/>

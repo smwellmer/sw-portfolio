@@ -1,9 +1,11 @@
 import projects from "../../data/projects.json";
+import Nav from "../../components/Nav";
 
 // the logic for where the project prop comes from in getStaticPaths & getStaticProps
 export default function Project({ project }) {
   return (
     <div>
+      <Nav/>
       <h1>{project.name}</h1>
       <p>{project.description}</p>
       <img src={project.image} alt={project.name} />
