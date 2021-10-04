@@ -17,8 +17,8 @@ export default function Nav(props) {
                     <li><Link href={`/`}>
                     Home
                     </Link></li>
-                    <li><Link href={`/About`}>
-                    About
+                    <li><Link href={`/Resume`}>
+                    Resume
                     </Link></li>
                     <li><Link href={`/Contact`}>
                     Contact

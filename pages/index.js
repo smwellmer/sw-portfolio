@@ -5,7 +5,7 @@ import Nav from '../components/Nav'
 export default function Home() {
   return (
     <div>
-      <div>
+      <div className='home'>
       <Nav />
       <h1 className='name'>Samantha</h1>
       <h1 className='name2'>Wellmer</h1>
@@ -17,10 +17,10 @@ export default function Home() {
       <p>
         
       </p>
-      <h3>My Projects</h3>
+      <h3 className='myprojects'>My Projects</h3>
       {projects.map((project, index) => {
         return (
-          <div key={index}>
+          <div key={index} className='projects'>
             <Link href={`/projects/${project.slug}`}>
               {project.name}
             </Link>
