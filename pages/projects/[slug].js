@@ -5,16 +5,21 @@ import Nav from "../../components/Nav";
 export default function Project({ project }) {
   return (
     <div>
-      <Nav/>
+    <Nav/>
+    <div className='projectContainer'>
       <h1>{project.name}</h1>
       <p>{project.description}</p>
       <img src={project.image} alt={project.name} />
+      <div className='buttonDiv'>
       <a href={project.live}>
         <button>Live Project</button>
       </a>
       <a href={project.github}>
         <button>Project GitHub</button>
       </a>
+      </div>
+     
+    </div>
     </div>
   );
 }
@@ -44,4 +49,7 @@ export async function getStaticProps(ctx) {
       project,
     },
   };
+
+
+
 }

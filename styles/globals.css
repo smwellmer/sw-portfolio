@@ -13,7 +13,8 @@ body{
   min-height: 100vh;
 }
 .footer{
-  position: absolute;
+  display: flex;
+  justify-content: center;
   bottom: 0;
   width: 100%;
   height: 2rem;
@@ -34,6 +35,7 @@ a {
   margin-left: 10px;
   z-index: 10;
 }
+
 .photo {
   margin: 0 auto;
   clip-path: ellipse(34% 40% at 50% 50%);
@@ -87,13 +89,25 @@ a {
   max-height: 250px;
   max-width: 250px;
 }
-
+/* Project Page */
+.projectContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.buttonDiv{
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttonDiv button{
+  border-radius: 10px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
 
 @media screen and (min-width: 768px){
-  /* .hamburger{
-    display: none;
-  }
-  .navigation{
-    display: flex;
-  } */
+
 }

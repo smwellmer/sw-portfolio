@@ -34,18 +34,22 @@ export default function Nav(props) {
                     width: 100%;
                     height: 60px;
                     background-color: #d8a85e;
+                    
+                    transition: transform 1s ease-out;
                 }
+                
                 .navigation ul {
                     display: ${hamburgerOpen ? 'inline' : 'none'};
                     background-color: #d8a85e;
-                    height: 25vh;
-                    width: 30vw;
+                    height: 15vh;
+                    width: 100vw;
                     margin-top: 60px;
                     position: absolute;
                 }
                 .navigation ul li{
                     list-style-type: none;
                     padding-right: 10px;
+                    font-size: 1.5em;
                 }
             `}
             </style>
