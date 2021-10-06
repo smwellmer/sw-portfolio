@@ -4,7 +4,7 @@ import Nav from '../components/Nav'
 
 export default function Home() {
   return (
-    <div>
+    <div className='container'>
       <div className='home'>
       <Nav />
       <h1 className='name'>Samantha</h1>
@@ -14,9 +14,6 @@ export default function Home() {
       <h2 className=''> turned</h2>
       <h2> developer</h2>
       </div>
-      <p>
-        
-      </p>
       <h3 className='myprojects'>My Projects</h3>
       {projects.map((project, index) => {
         return (
