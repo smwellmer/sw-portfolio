@@ -1,3 +1,3 @@
 export default function Hero(props) {
-    return <img class='hero' src='/mountains.jpg'></img>;
+    return <img className='hero' src='/mountains.jpg'></img>;
   }
