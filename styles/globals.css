@@ -12,11 +12,10 @@ body{
   position: relative;
   min-height: 100vh;
 }
-.container{
-  height: 100%;
-  margin: 0;
-  padding: 0;
+* {
+  box-sizing: border-box;
 }
+
 /* ///// Footer Styling ///// */
 .footer{
   display: flex;
@@ -33,13 +32,10 @@ body{
   margin: 0 1em;
 }
 /* //////////////////////// */
+
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .hamburger{
@@ -48,7 +44,7 @@ a {
   margin-left: 10px;
   z-index: 10;
 }
-
+/* Front Page */
 .photo {
   margin: 0 auto;
   clip-path: ellipse(34% 40% at 50% 50%);
@@ -63,7 +59,6 @@ a {
   opacity: .5;
   transform: translate3d(0px, 0, 0) scale(2);
 }
-
 .name{
   display: flex;
   flex-direction: column;
@@ -83,6 +78,7 @@ a {
   flex-direction: column;
   align-items: center;
 }
+/* ////////////////////////////// */
 /* /// Projects on Home Page /// */
 .myprojects{
   display: flex;
@@ -125,7 +121,34 @@ a {
   background-color: black;
   color: white;
 }
-
+/* /////////////////////// */
+.turned{
+  transition: transform 1s ease-in-out;
+}
+.turned:hover{
+  transform: rotate(360deg);
+}
 @media screen and (min-width: 768px){
-
+  .home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .home .name{
+    margin-top: 1.5em;
+  }
+  .home .text{
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-around;
+  }
+  .projectContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .myprojects{
+    margin-bottom: .5em;
+  }
+  
 }
