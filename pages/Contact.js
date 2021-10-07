@@ -6,7 +6,7 @@ export default function Contact(props) {
         <Nav />
         <h1>Contact Me</h1>
         <img src='/me2.jpeg' alt=''/>
-        <a href="mailto:swellmerdev@gmail.com?&subject=Let's get in touch!" target="_blank">Email me!</a>
+        <a href="mailto:swellmerdev@gmail.com?&subject=Let's get in touch!" target="_blank" rel="noreferrer">Email me!</a>
      </div>
     )
   }
