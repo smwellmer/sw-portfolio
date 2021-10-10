@@ -11,7 +11,7 @@ export default function Contact(props) {
          <img src='/me2.jpeg' alt='girl sitting on a tree stump in front of a pub'/>
         </div>
         <div className='buttons'>
-         <button><a href="mailto:swellmerdev@gmail.com?&subject=Let's get in touch!" target="_blank" rel="noreferrer">Email me!</a></button>
+         <button><a href="mailto:swellmerdev@gmail.com?&subject=Get in touch!" target="_blank" rel="noreferrer">Email me!</a></button>
          <button><a href='https://www.linkedin.com/in/samanthawellmer/'>LinkedIn</a></button>
          <button><a href='https://www.instagram.com/splendidsam/'>Instagram</a></button>
         </div>
