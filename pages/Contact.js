@@ -7,7 +7,7 @@ export default function Contact(props) {
         <div className='contact'>
          <h1>Contact Me</h1>
          <div className='contactPhoto'>
-         <h1 className='hi'>Hi, I'm Samantha</h1>
+         <h1 className='hi'>Hi, I&aposm Samantha</h1>
          <img src='/me2.jpeg' alt='girl sitting on a tree stump in front of a pub'/>
         </div>
         <div className='buttons'>
