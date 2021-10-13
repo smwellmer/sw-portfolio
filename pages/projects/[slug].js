@@ -6,7 +6,7 @@ export default function Project({ project }) {
   return (
     <div>
     <Nav/>
-    <div className='projectContainer'>
+    <div className='projectPageContainer'>
       <h1>{project.name}</h1>
       <p>{project.description}</p>
       <img src={project.image} alt={project.name} />

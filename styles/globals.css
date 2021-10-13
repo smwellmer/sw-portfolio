@@ -104,22 +104,32 @@ a {
 }
 /* /////////////////////// */
 /* Project Page */
-.projectContainer{
-  width: 100%;
+.projectPageContainer{
   display: flex;
   flex-direction: column;
- 
+  align-items: center;
+  margin-bottom: 2em;
+  padding-bottom: 4em;
 }
-.buttonDiv{
-  margin: 10px auto;
-  display: flex;
-  justify-content: space-evenly;
+
+.projectPageContainer img{
+  width: 80vw;
 }
 .buttonDiv button{
-  border-radius: 10px;
-  height: 30px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 1em;
+  font-weight: bolder;
+  height: 4em;
+  width: 4em;
+  border-radius: 100%;
+  margin: 1em;
+  background-color: #dedede;
+  box-shadow: 7px 8px #888888;
+}
+.buttonDiv button:hover{
   background-color: black;
-  color: white;
+  color: #dedede;
 }
 /* /////////////////////// */
 .turned{
@@ -160,7 +170,6 @@ a {
   flex-direction: column;
 }
 .buttons button{
-  font-family: 'Raleway', sans-serif;
   color: black;
   font-size: 1.5em;
   font-weight: bolder;
@@ -225,5 +234,54 @@ a {
   .myprojects{
     margin-bottom: .5em;
   }
+  /* individual project page */
+  .projectPageContainer img{
+    width: 70vw;
+  }
+  .projectPageContainer button{
+    height: 6em;
+    width: 6em;
+  } 
   
+  /* /////////////////////// */
+  /* contact page */
+  .contactPhoto{
+    margin-bottom: 15em;
+  }
+  .contactPhoto img{
+    height: 80vh;
+    width: 80vw;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3em;
+  }
+  /* ////////////////// */
+}
+@media screen and (min-width: 1024px){
+
+  .home{
+    padding-left: 10%;
+    max-width: 90%;
+  }
+
+  .contactPhoto{
+    margin-bottom: 20em;
+  }
+  .contactPhoto img{
+    height: 90vh;
+    width: 50vw;
+  }
+  .projects{
+    height: 40vh;
+    width: 49vw;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+  .projects img{
+    height: 100%;
+    margin: 0 auto;
+  }
 }
