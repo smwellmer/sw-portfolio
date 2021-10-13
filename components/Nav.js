@@ -20,9 +20,9 @@ export default function Nav(props) {
                     <li><Link href={`/projectList`}>
                     Projects
                     </Link></li>
-                    <li><Link href={`/Resume`}>
+                    <li><a href="../resume.pdf" target="blank">
                     Resume
-                    </Link></li>
+                    </a></li>
                     <li><Link href={`/Contact`}>
                     Contact
                     </Link></li>
@@ -36,14 +36,12 @@ export default function Nav(props) {
                 .navigation {
                     width: 100%;
                     height: 60px;
-                    background-color: #d8a85e;
-                   
+                    background-color: #d8a85e;  
                 }
-                
                 .navigation ul {
                     display: ${hamburgerOpen ? 'inline' : 'none'};
                     background-color: #d8a85e;
-                    height: 15vh;
+                    height: 18vh;
                     width: 100vw;
                     margin-top: 60px;
                     position: absolute;
