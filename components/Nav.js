@@ -34,8 +34,10 @@ export default function Nav(props) {
 
             <style jsx>{`
                 .navigation {
+                    display: flex;
+                    align-items: center;
                     width: 100%;
-                    height: 60px;
+                    height: 80px;
                     background-color: #d8a85e;  
                 }
                 .navigation ul {

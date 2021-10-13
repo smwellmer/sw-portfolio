@@ -13,9 +13,14 @@ export default function Home() {
         </div>
           <img className='photo' src='me.jpg' alt='me'/>
             <div className='text'>
-            <h2>accountant</h2>
+            {/* <h2>accountant</h2>
             <h2 className='turned'> turned</h2>
-            <h2> developer</h2>
+            <h2> developer</h2> */}
+            <div className='blurb'>A software engineer with the desire to create 
+              and innovate! I am comfortable with addressing 
+              situations logically due to my background in finance, 
+              as well as establishing great relationships through 
+              effective communication.</div>
             </div>
       </div>
       <h3 className='myprojects'>My Projects</h3>

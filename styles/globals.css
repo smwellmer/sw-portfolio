@@ -78,6 +78,9 @@ a {
   flex-direction: column;
   align-items: center;
 }
+.blurb{
+  padding: 0 5em;
+}
 /* ////////////////////////////// */
 /* /// Projects on Home Page /// */
 .myprojects{
@@ -128,7 +131,7 @@ a {
   box-shadow: 7px 8px #888888;
 }
 .buttonDiv button:hover{
-  background-color: black;
+  background-color: #264653;
   color: #dedede;
 }
 /* /////////////////////// */
@@ -182,7 +185,8 @@ a {
 }
 
 .buttons button:hover{
-  background-color: black;
+  background-color: #264653;
+
 }
 /* //////////////////// */
 /* Resume */
@@ -224,7 +228,14 @@ a {
   .home .text{
     grid-column: 1/3;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    
+  }
+  .text h2:first-child{
+    margin-right: 1em;
+  }
+  .text h2:last-child{
+    margin-left: 1em;
   }
   .projectContainer{
     display: grid;

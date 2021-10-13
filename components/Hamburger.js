@@ -24,7 +24,6 @@ export default function Hamburger({isOpen}) {
                     transition: all 0.3s linear;
                     background-color: black;
                     position: relative;
-                   
                 }
             
                 .burger1{
