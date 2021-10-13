@@ -268,7 +268,7 @@ a {
   }
 
   .contactPhoto{
-    margin-bottom: 20em;
+    margin-bottom: 23em;
   }
   .contactPhoto img{
     height: 90vh;
@@ -283,5 +283,20 @@ a {
   .projects img{
     height: 100%;
     margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1400px){
+  .projectContainer{
+    display: flex;
+  }
+  .text {
+    width: 80vw;
+  }
+  .contactPhoto img{
+    height: 70vh;
+    width: 50vw;
+  }
+  .contactPhoto{
+    margin-bottom: 12em;
   }
 }
